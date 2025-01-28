@@ -19,7 +19,7 @@ const routes = [
     },
     children: [
       {
-        path: '/directive',
+        path: 'directive',
         component: DirectiveView,
         meta: {
           title: 'Belajar Directive'
