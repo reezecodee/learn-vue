@@ -8,6 +8,9 @@
             <RouterLink to="/vue-dasar/directive">
                 <button class="btn btn-primary text-white">Belajar Directive</button>
             </RouterLink>
+            <RouterLink to="/vue-dasar/computed-property">
+                <button class="btn btn-primary text-white">Belajar Computed Property</button>
+            </RouterLink>
         </div>
         <RouterView />
     </div>

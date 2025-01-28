@@ -2,6 +2,7 @@ import { createWebHistory, createRouter } from "vue-router";
 import Home from "@/pages/Home.vue";
 import VueDasarView from "@/pages/vue-dasar/VueDasarView.vue";
 import DirectiveView from "@/pages/vue-dasar/directive/DirectiveView.vue";
+import ComputedView from "@/pages/vue-dasar/computed-property/ComputedView.vue";
 
 const routes = [
   {
@@ -23,6 +24,12 @@ const routes = [
         component: DirectiveView,
         meta: {
           title: 'Belajar Directive'
+        }
+      },{
+        path: 'computed-property',
+        component: ComputedView,
+        meta: {
+          title: 'Belajar Computed Property'
         }
       }
     ]
