@@ -11,6 +11,9 @@
             <RouterLink to="/vue-dasar/computed-property">
                 <button class="btn btn-primary text-white">Belajar Computed Property</button>
             </RouterLink>
+            <RouterLink to="/vue-dasar/lifecycle-hooks">
+                <button class="btn btn-primary text-white">Belajar Lifecycle Hooks</button>
+            </RouterLink>
         </div>
         <RouterView />
     </div>
