@@ -4,6 +4,7 @@ import VueDasarView from "@/pages/vue-dasar/VueDasarView.vue";
 import DirectiveView from "@/pages/vue-dasar/directive/DirectiveView.vue";
 import ComputedView from "@/pages/vue-dasar/computed-property/ComputedView.vue";
 import LifecycleView from "@/pages/vue-dasar/lifecycle-hooks/LifecycleView.vue";
+import WatcherView from "@/pages/vue-dasar/watcher/WatcherView.vue";
 
 const routes = [
   {
@@ -39,6 +40,13 @@ const routes = [
         component: LifecycleView,
         meta: {
           title: 'Belajar Lifecycle Hooks'
+        }
+      },
+      {
+        path: 'watcher',
+        component: WatcherView,
+        meta: {
+          title: 'Belajar Watcher'
         }
       }
     ]

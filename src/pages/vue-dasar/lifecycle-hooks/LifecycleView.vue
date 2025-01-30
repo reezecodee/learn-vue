@@ -69,7 +69,7 @@ onUnmounted(() => {
 </script>
 
 <template>
-    <h2 class="text-center mb-5">Silahkan sambil buka console browser karena semua output ada disana</h2>
+    <p class="text-center mb-5">Silahkan sambil buka console browser karena semua output ada disana</p>
 
     <Content title="onBeforeMount" description="Ini akan dijalankan sebelum vue merender komponen">
         <p>{{ messageOnBeforeMount }}</p>

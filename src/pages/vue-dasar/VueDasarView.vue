@@ -14,6 +14,9 @@
             <RouterLink to="/vue-dasar/lifecycle-hooks">
                 <button class="btn btn-primary text-white">Belajar Lifecycle Hooks</button>
             </RouterLink>
+            <RouterLink to="/vue-dasar/watcher">
+                <button class="btn btn-primary text-white">Belajar Watcher</button>
+            </RouterLink>
         </div>
         <RouterView />
     </div>
